@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+}
+
+#poke-container {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+#poke-container div {
+    padding: 10px 10px;
+    border: 5px solid black;
+    text-align: center;
+}
+
+#poke-container div img {
+    width: 90%;
+}
+
+#poke-container div h4 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
+}
+#poke-container div p {
+    text-transform: uppercase;
+    font-size: 3.5em;
+    margin: 0;
+    padding: 0;
+}
+#poke-container div ul {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 990px) {
+    #poke-container {
+      display: grid;
+      grid-template-columns: 100%;
+    }
+  }
